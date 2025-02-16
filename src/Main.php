@@ -27,11 +27,11 @@ class Main extends PluginBase {
 
     public function showCustomForm($player): void {
         $form = new CustomForm(function ($player, $data) {
-            // Handle form submission here (optional)
+            // Keine Aktion
         });
 
         $form->setTitle("PocketPerms Admin");
-        $form->addLabel("Soon");
+        $form->addButton("Manage Groups");
 
         $form->sendToPlayer($player);
     }
