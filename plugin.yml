@@ -14,3 +14,4 @@ commands:
     description: Manage Permission Groups
     permission: pocketperms.*
     permission-message: You do not have permission to execute this command.
+    default: false
