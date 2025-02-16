@@ -5,7 +5,7 @@ api: 5.0.0
 src-namespace-prefix: lokiPM\PocketPerms
 
 commands:
-  ppgroup:
+  pp:
     description: Manage Permission Groups
     permission: pocketperms.*
     permission-message: You do not have permission to execute this command.
