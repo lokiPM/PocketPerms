@@ -4,9 +4,13 @@ main: lokiPM\PocketPerms\Main
 api: 5.0.0
 src-namespace-prefix: lokiPM\PocketPerms
 
+permissions:
+  pocketperms.*:
+    description: Grants access to all permission-related commands and features
+    default: false
+
 commands:
   pp:
     description: Manage Permission Groups
     permission: pocketperms.*
     permission-message: You do not have permission to execute this command.
-    default: op
