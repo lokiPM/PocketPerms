@@ -1,0 +1,5 @@
+name: PocketPerms
+version: 1.0+dev
+main: lokiPM\PocketPerms\Main
+api: 5.0.0
+src-namespace-prefix: lokiPM\PocketPerms
